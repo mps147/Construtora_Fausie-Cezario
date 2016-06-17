@@ -1,7 +1,7 @@
 <header class="container-fluid"><!-- Logo e menu -->
 
 	<div id="img-logo" class="col-md-2 col-xs-12">
-		<img class="img-responsive" src="" alt="[image of logo top]">
+		<img class="img-responsive" src="images/logo/logo_constructor.jpg" alt="[image of logo top]">
 	</div>
 	
 	<div id="phone-top" class="col-md-2 col-md-push-right col-xs-12">
