@@ -1,20 +1,10 @@
 //imports
+@import "vendors/bootstrap/bootstrap/variables";
+@import "vendors/bootstrap/bootstrap/mixins";
 @import "variable";
-@import url(https://fonts.googleapis.com/css?family=Arvo:700,400);
+@import "header";
+@import "main";
 
 
-//Variables
-$font-default: 'Arvo', serif;
-//--------
 
-//Style sheets
-#content-main{
-	margin-top: 55px;
-	> #header-main{
-		margin-left: 15px;
-		background-color: #CCC;
-		> #phone-top{
-			
-		}
-	}
-}
+

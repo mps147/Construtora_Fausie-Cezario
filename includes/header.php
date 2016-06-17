@@ -1,21 +1,13 @@
-<header id="header-main" class="container-fluid"><!-- Logo e menu -->
+<header><!-- Logo e menu -->
+	<div class="container">
+		<div class="row">
+			<div id="container-logo"><!-- ./Logo of company -->
+				<img src="./images/logo/logo_constructor.jpg" alt="[logo of construction company]">
+			</div><!-- /Logo -->
 
-	<div id="img-logo" class="col-md-2 col-xs-12">
-		<img class="img-responsive" src="images/logo/logo_constructor.jpg" alt="[image of logo top]">
+			<div class="col-md-2 col-md-offset-7">
+				<p>(12) 3662-1411</p>
+			</div>
+		</div>
 	</div>
-	
-	<div id="phone-top" class="col-md-2 col-md-push-right col-xs-12">
-		<p>(12) 3662-1411</p>
-	</div>
-
-	<nav><!-- /menu of navigation -->
-		<ul>
-			<li><a href="#"> INÍCIO </a></li>
-			<li><a href="#"> A EMPRESA </a></li>
-			<li><a href="#"> SERVIÇOS </a></li>
-			<li><a href="#"> PROJETOS REALIZADOS </a></li>
-			<li><a href="#"> CONTATO </a></li>
-		</ul>
-	</nav><!-- /menu -->
-
 </header><!-- /Logo e menu -->

@@ -1,2 +1,2 @@
-@import url(https://fonts.googleapis.com/css?family=Arvo:700,400);@import url(https://fonts.googleapis.com/css?family=Arvo:700,400);#content-main{margin-top:55px}#content-main>#header-main{margin-left:15px;background-color:#CCC}
+@import url(https://fonts.googleapis.com/css?family=Arvo:700,400);@import url(https://fonts.googleapis.com/css?family=Arvo:700,400);@import url(https://fonts.googleapis.com/css?family=Arvo:700,400);header{padding-top:15px}header #container-logo{position:relative;min-height:1px;padding-left:15px;padding-right:15px}@media (min-width: 992px){header #container-logo{float:left;width:16.66667%}}header p{font-family:"Arvo",serif}body{background-color:#CCC}body #page-mid{background-color:#ffffff;margin-top:55px}
 /*# sourceMappingURL=style.css.map */

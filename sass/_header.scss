@@ -1,0 +1,17 @@
+@import url(https://fonts.googleapis.com/css?family=Arvo:700,400);
+
+//Variables
+$font-default: 'Arvo', serif;
+//--------
+
+//Style sheets
+
+header{
+	padding-top: 15px;
+	#container-logo{
+		@include make-md-column(2);
+	}
+	p{
+		font-family: $font-default;
+	}
+}
