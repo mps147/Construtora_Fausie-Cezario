@@ -11,7 +11,13 @@ header{
 	#container-logo{
 		@include make-md-column(2);
 	}
-	p{
-		font-family: $font-default;
+	#content-number{
+		@include make-md-column(2);
+		@include make-md-column-offset(7);
+		> #content-number_phone{
+			> p{
+				font-family: $font-default;
+			}
+		}
 	}
 }
