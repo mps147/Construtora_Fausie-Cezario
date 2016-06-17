@@ -18,8 +18,8 @@
 	</div><!-- /div Content-main -->
 	
 	<!-- JavaScripts -->
-	<script src="js/jquery.min.js"></script>
-	<script src="js/bootstrap.mim.js"></script>
+	<script src="js/jquery.min.js" type="text/script"></script>
+	<script src="js/bootstrap.js" type="text/script"></script>
 	<!-- /JavaScripts -->
 </body>
 </html>
