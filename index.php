@@ -7,7 +7,7 @@
 
 	<!-- Inserindo a paginas de estilos css -->
 	<link rel="stylesheet" href="css/vendors/plugins.css">
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style.css">s
 	<!-- /Fim da inserção das paginas de estilo-->
 </head>
 <body>
@@ -15,7 +15,16 @@
 	<div class="container-fluid col-xs-12"> <!-- ./Div page mid -->
 		<div class="col-md-8 col-md-offset-2 col-xs-12">
 			<div id="page-mid">
+
+				<!-- Cabeçalho da pagina -->
 				<?php include("includes/header.php"); ?>
+				<!-- /Cabeçalho -->
+				
+				<!-- Slider -->
+				<?php include("includes/slider.php"); ?>
+				<!-- /Slider -->
+				<br>
+
 			</div>
 		</div>
 	</div><!-- /Page mid -->

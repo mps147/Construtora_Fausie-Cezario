@@ -8,24 +8,28 @@ $font-default: 'Arvo', serif;
 
 header{
 	padding-top: 15px;
-	height: 900px;
 	.container-logo{
 		@include make-md-column(2);
 	}
- 	.content-number_phone{
- 		@include make-md-column(3);
+ 	.content-number{
+ 		//include
+ 		@include make-md-column(2);
 		@include make-md-column-push(7);
+		@include make-xs-column(12);
+		@include make-xs-column-pull(5);
+		
+		//css style
+		padding-right: 0px;
 
 		> p{
-			padding-right: 0px;
-			padding-left: 15px;
+			float: right;
 			font-family: $font-default;
 			font-size: 18px;
 			font-style: bold;
-			padding-right: 10px;
 		}
 	}
 	.nav-pills{
+		float: right;
 		> li{
 			> a{
 				color: #abc5bd;
@@ -34,7 +38,19 @@ header{
 				font-weight: bold;
 				font-style: none;
 			}
-		}
+		}	
 	}
-	
+	> #menu{
+		@include make-md-column(8);
+		@include make-md-column-push(4);
+		padding-left: 0px;
+	}
+	.collapse{
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.navbar{
+		margin-bottom: 0px;
+		height: 30px;
+	}
 }
