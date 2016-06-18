@@ -2,6 +2,7 @@
 <html lang="pt-BR">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<title>Bem vindo - A Construtora Fausie e Cezario</title>
 
 	<!-- Inserindo a paginas de estilos css -->
