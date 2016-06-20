@@ -13,7 +13,7 @@
 <body>
 	
 	<div class="container-fluid"> <!-- Div page mid -->
-		<div class="col-md-8 col-md-offset-2 col-xs-12">
+		<div id="content-mid">
 			<div id="page-mid">
 
 				<!-- Header -->
@@ -31,14 +31,17 @@
 				<!-- Galery -->
 				<?php include("includes/galery.php");?>
 				<!-- /Galery -->
-
+				
+				<!-- Footer-->
+				<?php include("includes/footer.php"); ?>
+				<!-- /Footer-->
 			</div>
 		</div>
 	</div><!-- /Page mid -->
 	
 	<!-- JavaScripts -->
 	<script src="js/jquery.min.js" type="text/script"></script>
-	<script src="js/bootstrap.js" type="text/script"></script>
+	<script src="js/bootstrap.min.js" type="text/script"></script>
 	<!-- /JavaScripts -->
 </body>
 </html>
