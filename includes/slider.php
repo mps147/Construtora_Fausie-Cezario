@@ -27,11 +27,11 @@
       <!-- Controls -->
       <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Anterior</span>
+        <!--span class="sr-only">Anterior</span-->
       </a>
       <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
         <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Próximo</span>
+        <!-- span class="sr-only">Próximo</span-->
       </a>
     </div>
   </div>

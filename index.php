@@ -7,23 +7,30 @@
 
 	<!-- Inserindo a paginas de estilos css -->
 	<link rel="stylesheet" href="css/vendors/plugins.css">
-	<link rel="stylesheet" href="css/style.css">s
+	<link rel="stylesheet" href="css/style.css">
 	<!-- /Fim da inserção das paginas de estilo-->
 </head>
 <body>
 	
-	<div class="container-fluid col-xs-12"> <!-- ./Div page mid -->
+	<div class="container-fluid"> <!-- Div page mid -->
 		<div class="col-md-8 col-md-offset-2 col-xs-12">
 			<div id="page-mid">
 
-				<!-- Cabeçalho da pagina -->
+				<!-- Header -->
 				<?php include("includes/header.php"); ?>
-				<!-- /Cabeçalho -->
+				<!-- /header -->
 				
 				<!-- Slider -->
 				<?php include("includes/slider.php"); ?>
 				<!-- /Slider -->
-				<br>
+				
+				<!-- Little Text about Fausi-->
+				<?php include("includes/about_fausi.php"); ?>
+				<!-- /Little Text -->
+
+				<!-- Galery -->
+				<?php include("includes/galery.php");?>
+				<!-- /Galery -->
 
 			</div>
 		</div>

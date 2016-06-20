@@ -1,0 +1,23 @@
+@import url(https://fonts.googleapis.com/css?family=Arvo:700,400);
+
+//Variables
+$font-default: 'Arvo', serif;
+//--------
+
+#about{
+	> article {
+		> .icon-houses{
+			@include make-md-column(1);
+		}
+		> span{
+			> p{
+				font-family: $font-default;
+				font-size: 12px;
+				padding-top: 10px;
+			}
+		}
+		> .description_about{
+			@include make-md-column(10);
+		}
+	}
+}

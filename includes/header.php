@@ -1,5 +1,5 @@
 <header><!-- Logo e menu -->
-	<div class="container-fluid" style="padding-right:0px;">
+	<div class="container-fluid" style="padding-right: 0px;">
 		<div class="row-fluid">
 			<div class="container-logo"><!-- ./Logo of company -->
 				<img class="img-responsive" src="./images/logo/logo_constructor.jpg" alt="[logo of construction company]">
