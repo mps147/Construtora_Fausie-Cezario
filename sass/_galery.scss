@@ -1,7 +1,14 @@
 #galery{
-	> .row{
-		> #galery-imgMid{
-			padding: 0px;
+	width: 100%;
+	> #galery-items{
+		> .galery-item{
+			@include make-xs-column(12);
+			@include make-md-column(4);
+			
+			background: #CCC;
+			background-clip: content-box;
+			max-width: 350px;
+			margin-bottom: 40px;
 		}
 	}
 }
