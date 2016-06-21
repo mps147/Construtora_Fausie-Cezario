@@ -1,58 +1,53 @@
-@import url(https://fonts.googleapis.com/css?family=Poppins:400,700);
-
-//Variables
-$font-default: 'Poppins', sans-serif;
-//--------
-
 //Style sheets
 
 header{
 	padding-top: 15px;
-	.container-logo{
-		@include make-md-column(2);
-		padding-left: 0px;
-	}
- 	.content-number{
- 		//include
- 		@include make-xs-column(12);
-		@include make-xs-column-pull(5);
- 		@include make-md-column(2);
-		@include make-md-column-push(7);
-		
-		
-		//css style
-		padding-right: 0px;
+	> .row{
+		> .container-logo{
+			@include make-xs-column(4);
+			@include make-md-column(2);
+		}
+		> .content-number{
+	 		//include
+	 		@include make-xs-column(5);
+	 		@include make-xs-column-offset(1);
+	 		@include make-md-column(2);
+			@include make-md-column-offset(7);
+			
+			//css style
+			padding-right: 0px;
 
-		> p{
-			float: right;
-			font-family: $font-default;
-			font-size: 18px;
-			font-style: bold;
+			> p{
+				float: right;
+				font-family: $font-default;
+				font-size: 14px;
+			}
 		}
 	}
-	.nav-pills{
-		float: right;
-		> li{
-			> a{
-				color: #abc5bd;
-				font-size: 14px;
-				font-family: $font-default;
-				font-weight: bold;
-				font-style: none;
-			}
-		}	
-	}
+ 	
 	> #menu{
-		@include make-md-column(8);
-		@include make-md-column-push(4);
-		padding-left: 0px;
-	}
-	.collapse{
-		padding-left: 0px;
-		padding-right: 0px;
-	}
-	.navbar{
-		margin-bottom: 0px;
-		height: 30px;
+
+		> .navbar{
+			margin-bottom: 0px;
+			height: 30px;
+		}
+		
+		> .collapse{
+			padding-left: 0px;
+			padding-right: 0px;
+
+			> .nav-pills{
+				float: right;
+				> li{
+					> a{
+						color: #abc5bd;
+						font-size: 14px;
+						font-family: $font-default;
+						font-weight: bold;
+						font-style: none;
+					}
+				}	
+			}
+		}
 	}
 }

@@ -1,24 +1,24 @@
 body{
-	> .container-fluid{
-		padding: 0pc;
-		>#content-mid {
-			@include make-xs-column(12);
-			@include make-md-column(8);
-			@include make-md-column-offset(2);
-			padding: 0px;
-			> #page-mid{
-				background-color: #ffffff;
-			}
-		}	
-	}
-
 	background-color: #CCC;
+	
+	>#content-mid {
+		@include make-xs-column(12);
+		@include make-md-column(8);
+		@include make-md-column-offset(2);
+		padding: 0px;
+		background-color: #ffffff;
+		
+	}	
+
 	.img-responsive{
 	  display: block;
 	  max-width: 100%;
 	  height: auto;
 	}
-	#slider{
-		margin-bottom: 20px;
+	
+	> .container{
+		> #slider{
+			margin-bottom: 20px;
+		}
 	}
 }

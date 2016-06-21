@@ -12,37 +12,33 @@
 </head>
 <body>
 	
-	<div class="container-fluid"> <!-- Div page mid -->
-		<div id="content-mid">
-			<div id="page-mid">
+	<div id="content-mid" class="container"> <!-- Div page mid -->
 
-				<!-- Header -->
-				<?php include("includes/header.php"); ?>
-				<!-- /header -->
-				
-				<!-- Slider -->
-				<?php include("includes/slider.php"); ?>
-				<!-- /Slider -->
-				
-				<!-- Little Text about Fausi-->
-				<?php include("includes/about_fausi.php"); ?>
-				<!-- /Little Text -->
+		<!-- Header -->
+		<?php include("includes/header.php"); ?>
+		<!-- /header -->
+		
+		<!-- Slider -->
+		<?php include("includes/slider.php"); ?>
+		<!-- /Slider -->
+		
+		<!-- Little Text about Fausi-->
+		<?php include("includes/about_fausi.php"); ?>
+		<!-- /Little Text -->
 
-				<!-- Galery -->
-				<?php include("includes/galery.php");?>
-				<!-- /Galery -->
-				
-				<!-- Footer-->
-				<?php include("includes/footer.php"); ?>
-				<!-- /Footer-->
-			</div>
-		</div>
+		<!-- Galery -->
+		<?php include("includes/galery.php");?>
+		<!-- /Galery -->
+		
+		<!-- Footer-->
+		<?php include("includes/footer.php"); ?>
+		<!-- /Footer-->
+
 	</div><!-- /Page mid -->
 	
 	<!-- JavaScripts -->
 	<script src="js/jquery.min.js" type="text/script"></script>
 	<script src="js/bootstrap.min.js" type="text/script"></script>
 	<!-- /JavaScripts -->
-	
 </body>
 </html>
