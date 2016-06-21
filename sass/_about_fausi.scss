@@ -1,23 +1,27 @@
-@import url(https://fonts.googleapis.com/css?family=Arvo:700,400);
+@import url(https://fonts.googleapis.com/css?family=Poppins:400,700);
 
 //Variables
-$font-default: 'Arvo', serif;
+$font-default: 'Poppins', sans-serif;
 //--------
 
 #about{
+	margin-bottom: 20px;
 	> article {
 		> .icon-houses{
+			@include make-xs-column(3);
 			@include make-md-column(1);
 		}
 		> span{
 			> p{
 				font-family: $font-default;
+				font-style: justify;
 				font-size: 12px;
 				padding-top: 10px;
 			}
-		}
-		> .description_about{
-			@include make-md-column(10);
+			> .description_about{
+				@include make-xs-column(12);
+				@include make-md-column(10);
+			}
 		}
 	}
 }
