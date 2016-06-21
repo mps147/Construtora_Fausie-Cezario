@@ -5,19 +5,23 @@ $font-default: 'Arvo', serif;
 //--------
 
 #about{
+	margin-bottom: 20px;
 	> article {
 		> .icon-houses{
-			@include make-md-column(1);
+			> img{
+				@include make-xs-column(4);
+				@include make-md-column(1);
+			}
 		}
-		> span{
+		
+		> .description_about{
+			@include make-md-column(10);
 			> p{
 				font-family: $font-default;
-				font-size: 12px;
+				font-size: 11px;
 				padding-top: 10px;
 			}
 		}
-		> .description_about{
-			@include make-md-column(10);
-		}
+		
 	}
 }
