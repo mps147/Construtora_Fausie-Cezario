@@ -1,8 +1,9 @@
 #footer{
 	> .row{
-		.content-footer{
+		> .content-footer{
 			@include make-xs-column(12);
 			@include make-md-column(4);
+
 			background-clip: content-box;
 			max-width: 350px;
 			> p{
@@ -11,6 +12,7 @@
 			}
 		}
 	}
+
 	>.row{
 		> #location{
 			@include make-xs-column(12);
@@ -23,6 +25,8 @@
 		> #logo-sitenivel{
 			@include make-md-column(1);
 			@include make-md-column-offset(5);
+			@include make-xs-column(7);
+			@include make-xs-column-offset(5);
 		}
 	}
 }
