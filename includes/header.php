@@ -1,19 +1,16 @@
-<header><!-- Logo e menu -->
-	<div class="container-fluid" style="padding-right: 0px;">
-		<div class="row-fluid">
-			<div class="container-logo"><!-- ./Logo of company -->
-				<img class="img-responsive" src="./images/logo/logo_constructor.jpg" alt="[logo of construction company]">
-			</div><!-- /Logo -->
-			<br>
-			<div class="content-number">
-				<p><i class="glyphicon glyphicon-earphone"></i><strong>(12) 3662-1411</strong></p>
-			</div>			
-			
+<header class="container-fluid"><!-- Logo e menu -->
+	
+	<div class="row">
+		<div class="container-logo"><!-- ./Logo of company -->
+			<img class="img-responsive" src="./images/logo/logo_constructor.jpg" alt="[logo of construction company]">
+		</div><!-- /Logo -->
+		<br>
+		<div class="content-number">
+			<p><i class="glyphicon glyphicon-earphone"></i> <strong>(12) 3662-1411</strong></p>
 		</div>
 	</div>
 
-	<nav class="navbar navbar-default">
-	  <div id="menu" class="container-fluid">
+	<nav id="menu" class="row navbar navbar-default">
 	    <!-- Brand and toggle get grouped for better mobile display -->
 	    <div class="navbar-header">
 	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -33,6 +30,6 @@
 	        <li><a href="#">CONTATO</a></li>
 	      </ul>
 	    </div><!-- /.navbar-collapse -->
-	  </div><!-- /.container-fluid -->
 	</nav>
+ 
 </header><!-- /Logo e menu -->

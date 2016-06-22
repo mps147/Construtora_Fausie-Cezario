@@ -1,5 +1,6 @@
 body{
 	background-image: url("../images/images_main/background.jpg");
+	background-repeat: no-repeat;
 	> #conteudo{
 		@include make-xs-column(12);
 		@include make-md-column(8);
