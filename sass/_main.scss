@@ -1,6 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Arvo:700,400);
-
 body{
+	background-image: url("../images/images_main/background.jpg");
 	> #conteudo{
 		@include make-xs-column(12);
 		@include make-md-column(8);

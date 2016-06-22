@@ -6,7 +6,7 @@
 			</div><!-- /Logo -->
 			<br>
 			<div class="content-number">
-				<p>(12) 3662-1411</p>
+				<p><i class="glyphicon glyphicon-earphone"></i><strong>(12) 3662-1411</strong></p>
 			</div>			
 			
 		</div>

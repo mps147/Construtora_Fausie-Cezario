@@ -9,7 +9,7 @@
 			
 		</div>
 		<div class="content-footer">
-			<p><i class="glyphicon glyphicon-earphone"></i>(12) 3662-1411</p>
+			<p><i class="glyphicon glyphicon-earphone"></i><strong>(12) 3662-1411</strong></p>
 		</div>
 		<div class="content-footer">
 			<p><strong>@</strong> contato@fausicezario.com.br</p>
