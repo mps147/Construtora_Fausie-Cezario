@@ -1,38 +1,23 @@
+@import url(https://fonts.googleapis.com/css?family=Arvo:700,400);
+
+//Variables
+$font-default: 'Arvo', serif;
+//--------
+
 #about{
-	margin-bottom: 20px;
 	> article {
 		> .icon-houses{
-<<<<<<< HEAD
-			> img{
-				@include make-xs-column(4);
-				@include make-md-column(1);
-			}
-=======
-			@include make-xs-column(3);
 			@include make-md-column(1);
->>>>>>> responsive
 		}
-		
-		> .description_about{
-			@include make-md-column(10);
+		> span{
 			> p{
 				font-family: $font-default;
-<<<<<<< HEAD
-				font-size: 11px;
-				padding-top: 10px;
-			}
-		}
-		
-=======
-				font-style: justify;
 				font-size: 12px;
 				padding-top: 10px;
 			}
-			> .description_about{
-				@include make-xs-column(12);
-				@include make-md-column(10);
-			}
 		}
->>>>>>> responsive
+		> .description_about{
+			@include make-md-column(10);
+		}
 	}
 }

@@ -1,42 +1,22 @@
+@import url(https://fonts.googleapis.com/css?family=Arvo:700,400);
+
 body{
-<<<<<<< HEAD
-	> .container-fluid{
-		padding: 0px;
-		>#content-mid {
-			@include make-xs-column(12);
-			@include make-md-column(8);
-			@include make-md-column-offset(2);
-
-			width: 1170px;
-			padding: 0px;
-			> #page-mid{
-				background-color: #ffffff;
-			}
-		}	
-	}
-
-=======
->>>>>>> responsive
-	background-color: #CCC;
-	
-	>#content-mid {
+	> #conteudo{
 		@include make-xs-column(12);
 		@include make-md-column(8);
 		@include make-md-column-offset(2);
-		padding: 0px;
-		background-color: #ffffff;
 		
-	}	
+		padding: 0px;
+		background: #ffffff;
+	}
 
+	background-color: #CCC;
 	.img-responsive{
 	  display: block;
 	  max-width: 100%;
 	  height: auto;
 	}
-	
-	> .container{
-		> #slider{
-			margin-bottom: 20px;
-		}
+	#slider{
+		margin-bottom: 20px;
 	}
 }

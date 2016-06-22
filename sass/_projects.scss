@@ -1,24 +1,11 @@
 #projects{
-<<<<<<< HEAD:sass/_projects.scss
-	width: 100%;
 	> #projects-items{
 		> .projects-item{
-=======
-	> .row{
-		> .projects__items{
->>>>>>> responsive:sass/_galery.scss
 			@include make-xs-column(12);
 			@include make-md-column(4);
-
-			min-height: 230px;
-			background: #CCC;
+	
 			background-clip: content-box;
-<<<<<<< HEAD:sass/_projects.scss
-			max-width: 350px;
-			
-=======
 			margin-bottom: 20px;
->>>>>>> responsive:sass/_galery.scss
 		}
 	}
 }

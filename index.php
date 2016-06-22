@@ -12,33 +12,7 @@
 </head>
 <body>
 	
-<<<<<<< HEAD
-	<div class="container-fluid"> <!-- Div page mid -->
-		<div id="content-mid">
-			<div id="page-mid">
-				<!-- Header -->
-				<?php include("includes/header.php"); ?>
-				<!-- /header -->
-				
-				<!-- Slider -->
-				<?php include("includes/slider.php"); ?>
-				<!-- /Slider -->
-				
-				<!-- Little Text about Fausi-->
-				<?php include("includes/about_fausi.php"); ?>
-				<!-- /Little Text -->
-
-				<!-- Galery -->
-				<?php include("includes/projects.php");?>
-				<!-- /Galery -->
-				
-				<!-- Footer-->
-				<?php include("includes/footer.php"); ?>
-				<!-- /Footer-->
-			</div>
-		</div>
-=======
-	<div id="content-mid" class="container"> <!-- Div page mid -->
+	<div id="conteudo" class="container"> <!-- Conteudo Centralizado -->
 
 		<!-- Header -->
 		<?php include("includes/header.php"); ?>
@@ -53,15 +27,14 @@
 		<!-- /Little Text -->
 
 		<!-- Galery -->
-		<?php include("includes/galery.php");?>
+		<?php include("includes/projects.php");?>
 		<!-- /Galery -->
 		
 		<!-- Footer-->
 		<?php include("includes/footer.php"); ?>
 		<!-- /Footer-->
-
->>>>>>> responsive
-	</div><!-- /Page mid -->
+		
+	</div><!-- /Conteudo -->
 	
 	<!-- JavaScripts -->
 	<script src="js/jquery.min.js" type="text/script"></script>

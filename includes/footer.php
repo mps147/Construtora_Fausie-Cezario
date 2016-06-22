@@ -5,16 +5,16 @@
 			<p>
 				CONSTRUTORA <br />
 				FAUSI & CEZÁRIO ENGENHEIRO ASSOCIADOS.
-			</p>	
+			</p>
+			
 		</div>
 		<div class="content-footer">
-			<p><i class="glyphicon glyphicon-earphone"></i><strong> (12) 3662-1411</strong></p>
+			<p><i class="glyphicon glyphicon-earphone"></i>(12) 3662-1411</p>
 		</div>
 		<div class="content-footer">
 			<p><strong>@</strong> contato@fausicezario.com.br</p>
 		</div>
 	</div>
-	
 	<div class="row">
 		<address id="location">
 			<p><i class="glyphicon glyphicon-map-marker"></i> Av. Frei Oreste Girardi, 1229.Abernéssia. Campos do jordão - SP.</p>
