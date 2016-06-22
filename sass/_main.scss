@@ -2,11 +2,13 @@
 
 body{
 	> .container-fluid{
-		padding: 0pc;
+		padding: 0px;
 		>#content-mid {
 			@include make-xs-column(12);
 			@include make-md-column(8);
 			@include make-md-column-offset(2);
+
+			width: 1170px;
 			padding: 0px;
 			> #page-mid{
 				background-color: #ffffff;

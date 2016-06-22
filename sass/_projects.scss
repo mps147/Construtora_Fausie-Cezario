@@ -1,15 +1,14 @@
-#galery{
+#projects{
 	width: 100%;
-	> #galery-items{
-		> .galery-item{
+	> #projects-items{
+		> .projects-item{
 			@include make-xs-column(12);
 			@include make-md-column(4);
 			
 			background: #CCC;
 			background-clip: content-box;
 			max-width: 350px;
-			margin-bottom: 40px;
-			padding-right: 0px;
+			
 		}
 	}
 }

@@ -1,35 +1,30 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<title>CONSTRUTORA FAUSI E CEZARIO - A EMPRESA</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<title>Bem vindo - A Construtora Fausie e Cezario</title>
 
-	<!-- Inserindo a paginas de estilos css -->
-	<link rel="stylesheet" href="css/vendors/plugins.css">
+	<!-- Stylesheets -->
 	<link rel="stylesheet" href="css/style.css">
-	<!-- /Fim da inserção das paginas de estilo-->
+	<link rel="stylesheet" href="css/vendors/plugins.css">
+	<!-- /Stylesheets -->
 </head>
 <body>
 	
 	<div class="container-fluid"> <!-- Div page mid -->
 		<div id="content-mid">
 			<div id="page-mid">
+
 				<!-- Header -->
 				<?php include("includes/header.php"); ?>
 				<!-- /header -->
-				
-				<!-- Slider -->
-				<?php include("includes/slider.php"); ?>
-				<!-- /Slider -->
 				
 				<!-- Little Text about Fausi-->
 				<?php include("includes/about_fausi.php"); ?>
 				<!-- /Little Text -->
 
-				<!-- Galery -->
-				<?php include("includes/projects.php");?>
-				<!-- /Galery -->
+				<?php include("include/galery.php"); ?>
 				
 				<!-- Footer-->
 				<?php include("includes/footer.php"); ?>
@@ -37,10 +32,8 @@
 			</div>
 		</div>
 	</div><!-- /Page mid -->
-	
-	<!-- JavaScripts -->
-	<script src="js/jquery.min.js" type="text/script"></script>
-	<script src="js/bootstrap.min.js" type="text/script"></script>
-	<!-- /JavaScripts -->
+
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.min.js"></script>
 </body>
 </html>
