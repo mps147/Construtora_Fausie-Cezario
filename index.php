@@ -12,6 +12,7 @@
 </head>
 <body>
 	
+<<<<<<< HEAD
 	<div class="container-fluid"> <!-- Div page mid -->
 		<div id="content-mid">
 			<div id="page-mid">
@@ -36,6 +37,30 @@
 				<!-- /Footer-->
 			</div>
 		</div>
+=======
+	<div id="content-mid" class="container"> <!-- Div page mid -->
+
+		<!-- Header -->
+		<?php include("includes/header.php"); ?>
+		<!-- /header -->
+		
+		<!-- Slider -->
+		<?php include("includes/slider.php"); ?>
+		<!-- /Slider -->
+		
+		<!-- Little Text about Fausi-->
+		<?php include("includes/about_fausi.php"); ?>
+		<!-- /Little Text -->
+
+		<!-- Galery -->
+		<?php include("includes/galery.php");?>
+		<!-- /Galery -->
+		
+		<!-- Footer-->
+		<?php include("includes/footer.php"); ?>
+		<!-- /Footer-->
+
+>>>>>>> responsive
 	</div><!-- /Page mid -->
 	
 	<!-- JavaScripts -->

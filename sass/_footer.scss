@@ -1,14 +1,9 @@
-@import url(https://fonts.googleapis.com/css?family=Arvo:700,400);
-
-//Variables
-$font-default: 'Arvo', serif;
-//--------
-
 #footer{
 	> .row{
-		.content-footer{
+		> .content-footer{
 			@include make-xs-column(12);
 			@include make-md-column(4);
+
 			background-clip: content-box;
 			max-width: 350px;
 			> p{
@@ -17,6 +12,7 @@ $font-default: 'Arvo', serif;
 			}
 		}
 	}
+
 	>.row{
 		> #location{
 			@include make-xs-column(12);
@@ -29,6 +25,8 @@ $font-default: 'Arvo', serif;
 		> #logo-sitenivel{
 			@include make-md-column(1);
 			@include make-md-column-offset(5);
+			@include make-xs-column(7);
+			@include make-xs-column-offset(5);
 		}
 	}
 }

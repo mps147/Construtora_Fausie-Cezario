@@ -1,5 +1,4 @@
 <div id="slider" class="container-fluid">
-  <div class="row-fluid">
     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
       <!-- Indicators -->
       <ol class="carousel-indicators">
@@ -11,7 +10,7 @@
       <!-- Wrapper for slides -->
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <img class="img-responsive" src="images/slider/galeria.jpg" alt="[Construction made by Fasie & Cezário]">
+          <img src="images/slider/galeria.jpg" alt="[Construction made by Fasie & Cezário]" class="img-responsive">
           <div class="carousel-caption">
             ...
           </div>
@@ -34,5 +33,4 @@
         <!-- span class="sr-only">Próximo</span-->
       </a>
     </div>
-  </div>
 </div>
